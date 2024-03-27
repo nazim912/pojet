@@ -1,0 +1,645 @@
+/* carre 1 */
+html, * {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    transition: 500ms;
+}
+.groscarre1{
+    background-image:url("./header-background\ 1.png") ;
+    width: 1920px;
+    height: 971.43px;
+    left: -3px;
+    object-fit: cover;
+}
+.header{
+    display: flex;
+    width: 1622.68px;
+    height: 41.9px;
+    padding-left: 145.57px;
+
+}
+.boutonhaut{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.Collection{
+    width: 92px;
+    height: 27px;
+    color: #FFFFFF;
+    padding-top: 60.84px;
+    font-size: 25px;
+    padding-right: 75px;
+}
+.Company{
+    width: 115.56px;
+    height: 34.29px;
+    color: #FFFFFF;
+    padding-top: 60.84px;
+    padding-left: 59px;
+    padding-right: 75px;
+    font-size: 25px;
+}
+a {
+    position: relative;
+  }
+  a::after {
+    content: '';
+    transform-origin: 0 0; 
+    transform: scaleX(0);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: .4em; 
+    z-index: -1;
+    opacity: 0.8;
+    transition: transform .3s;
+  }
+  a:hover::after {
+    transform: scaleX(1);
+  }
+  a {
+    text-decoration: none;
+    background: linear-gradient(to top, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
+  }
+  
+  a:hover {
+    background-size: 100% 100%;
+  }
+.Contact{
+    width: 180.25px;
+    height: 340.29px;
+    padding-top: 60.84px;
+    padding-left: 59px;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+.logo{
+    width: 1622.68px;
+    height: 41.9px;
+    margin-top: 62.22px;
+}
+.titrecarre1{
+    width: 1212px;
+    height: 1px;
+    padding-top: 400px;
+    margin-left: 146px;
+    padding-right:400px ;
+    padding-bottom: 300.43px;
+    color:#FFFFFF;
+    border-bottom:2px solid white ;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 97.5px;
+}
+.textecarre1{
+    width: 933.33px;
+    height: 102.86px;
+    padding-top: 20px ;
+    padding-left: 151.92px;
+    padding-bottom: 200.16px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 128.25px;
+    height: 34.29px;
+}
+/* gros carre 2 */
+.groscarre2{
+    display: flex;
+    background: #F2EFEF;
+    width: 1917px;
+    height: 880px;
+    top: 971px;
+    left: 3px;
+}
+.textegauche2{
+    width: 535.14px;
+    height: 200.85px;
+    padding-top: 215.96px;
+    padding-left: 151.34px;
+    padding-right: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px ;
+    line-height: 97.5px;
+    font-weight: 700;
+
+}
+.droite{
+    width: 34%;
+    padding-top: 220px;
+    padding-left: 430px;
+    padding-bottom: 100px;
+    padding-right: 190px;
+    margin-right: 50px;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 5px;
+
+}
+h3{
+    margin-right: -271px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 68px;
+
+}
+.Bpage2 a{
+    color: #000000;
+    border: none;
+    margin-left: 125px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    background: linear-gradient(top, rgb(9, 9, 9) 0%, rgb(0, 0, 0) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
+
+}
+
+.le1{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+.le2{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+.le3{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    padding-left: 56px;
+}
+.fleche{
+    display: flex;
+    position: absolute;
+    right: 0;
+    border-radius: 0px 20px 0px 10px;
+    width: 50px;
+    height: 50px;
+    color: #d5d6d1;
+}
+/* page3 */
+.groscarre3{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 1917px;
+    height: 900px;
+}
+.imagegauche{
+    height: 903px;
+    width: 865px;
+    margin-right: -231px;
+}
+.imagemilieu{
+    height: 900px;
+    width: 740px;
+    margin-right: -119px;
+}
+.imagedroite{
+    height: 902px;
+    width: 645px;
+    margin-left: 8px;
+}
+.imagedroite:hover{
+    opacity:  0.5;
+}
+.imagegauche:hover{
+    opacity:  0.5;
+}
+.imagemilieu:hover{
+    opacity:  0.5;
+}
+/* page 4 */
+.groscarre4{
+    display: flex;
+    width: 1917px;
+    height: 894.95px;
+    top: 2757px;
+    left: -7px;
+    border: 1px;
+    background: rgba(242, 239, 239, 1);
+
+}
+.titrecontact{
+    display: flex;
+    justify-content: center;
+    width: 345.38px;
+    height: 115.86px;
+    padding-left: 500px;
+    padding-bottom: 100px;
+    padding-top: 42px;
+    top: 2799.56px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 98px;
+}
+.p4gauche{
+    width: 700px;
+    padding-left: 280px;
+}
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+#name{
+    border: none;
+    width: 550.47px;
+    height: 40.75px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 1);
+}
+#phone{
+    border: none;
+    width: 550.47px;
+    height: 40.75px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 1);
+}
+#email{
+    border: none;
+    width: 550.47px;
+    height: 40.75px;
+    border-radius: 10px ;
+    background: rgba(255, 255, 255, 1);
+}
+.buttonp4{
+    width:  558px;
+    height:56px;
+    border-radius: 10px;
+    background-color: black;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+}
+.buttonp4:hover{
+    background-color: #FFFFFF;
+    color: #000000;
+    border-color: #FFFFFF;
+}
+.buttonp4:active{
+    border-color:#000000;
+}
+.mail{
+    padding-bottom: 56px;
+}
+.phone{
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+.cont{
+    border-right: 1px solid #000000;
+}
+.coordonnees{
+    width: 500px;
+    padding-top: 300px;
+    padding-left: 100px;
+}
+h5{
+    width: 509.79px;
+    height: 48.47px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: left;
+}
+h6{
+    width: 545.47px;
+    height: 31.92px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 35px;
+}
+
+.b1{
+    background-color: rgb(255, 255, 255);
+    border-radius: 60px;
+    border: none;
+    width: 75px;
+    height: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
+.b2{
+    background-color: rgb(255, 255, 255);
+    border-radius: 60px;
+    border: none;
+    width: 75px;
+    height: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
+.b3{
+    background-color: rgb(255, 255, 255);
+    border-radius: 60px;
+    border: none;
+    width: 75px;
+    height: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    
+}
+.footer{
+    background-color: #000000;
+    width: 1917px;
+    height: 156.05px;
+}
+.photo{
+    padding-top: 60px;
+    padding-left: 170px;
+}
+.hfooter{
+    margin-top: -40px;
+    margin-left: 1479px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+@media screen and (max-width:900px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+.groscarre1{
+    width: 491px;
+    top: -490px;
+    left: 1487px;
+
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.boutonhaut{
+    display: flex;
+    flex-direction: column;
+}
+.Collection{
+    padding-left: 60px;
+    margin-bottom: -31px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.Contact{
+    padding-right: 40px;
+    margin-bottom: -46px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.Company{
+    margin-bottom: -31px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.boutonhaut{
+    margin-top: 25px;
+    margin-left: -20px;
+}
+.titrecarre1{
+    width: 450px;
+    height: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    font-weight: 900;
+    margin-left: 30px;
+    margin-top: 36px;
+    line-height: 50px;
+    padding-bottom: 147.43px;
+    padding-bottom: 130.43px;
+    color: #FFFFFF;
+    border-bottom: 4px solid white;
+
+}
+.textecarre1{
+    width:370px;
+    padding-left: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    padding-top: 50px;
+
+}
+.groscarre2{
+width: 491px;
+height: 1300px;
+top: -490px;
+left: 1487px;
+display: flex;
+flex-direction: column;
+}
+.Bpage2{
+    width: 411px;
+    margin-left: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+.textegauche2{
+    width: 2800px;
+    line-height: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    padding-left: 45px;
+    padding-top: 40px;
+}
+.droite{
+    padding-left: 50px;
+    padding-top: 0px;
+}
+::placeholder {
+    color: blue;
+    font-size: 18px;
+  }
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+h3{
+    width:200px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+}
+.chiffre1{
+    padding-top: 50px;
+}
+.chiffre2{
+    padding-top: 50px;
+}
+.chiffre3{
+    padding-top: 50px;
+}
+.groscarre3{
+width: 491px;
+height: 1400px;
+display: flex;
+flex-direction: column;
+}
+.imagegauche{
+    width:670px;
+    height: 488px;
+} 
+.imagemilieu{
+    width:568px;
+    height: 470px;
+}
+.imagedroite{
+    width:490px;
+    height: 470px;
+    margin-left: 0px;
+}
+.groscarre4{
+width: 491px;
+height: 1150px;
+top: -490px;
+left: 1487px;
+display: flex;
+flex-direction: column;
+}
+.p4gauche{
+    padding-left: 27px;
+}
+.titrecontact{
+    padding-left: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+.cont{
+    border: none;
+}
+.buttonp4{
+    width: 425px
+}
+#email{
+    width: 421.47px
+}
+#phone{
+    width: 421.47px
+}
+#name{
+    width: 421.47px
+}
+.coordonnees{
+    padding-top: 100px;
+}
+h4{
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+h5{
+    padding-left: 80px;
+    padding-bottom: 10px;
+    font-weight: 900;
+}
+h6{
+    padding-left: 31px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+}
+.ad{
+    margin-left: -70px;
+}
+.footer{
+width: 491px;
+height: 200px;
+display: flex;
+flex-direction: column;
+}
+.hfooter{
+    width: 400px;
+    margin-top: 39px;
+    margin-left: 110px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.photo{
+    padding-left: 120px;
+    size: 10px;
+}
+}
